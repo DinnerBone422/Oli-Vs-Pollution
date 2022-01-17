@@ -4,22 +4,22 @@ var backGround, man, stonesGroup, trashsGroup, invisibleGround, gameOver, restar
 var distance, speed, score, gameState, play, end;
 
 function preload() {
-  backgroundImg = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/full_background.png");
+  backgroundImg = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/full_background.png");
 
-  gameOverImg = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/gameOver.png");
-  restartImg = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/restart.png");
+  gameOverImg = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/gameOver.png");
+  restartImg = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/restart.png");
 
-  stoneImg = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/stone.png");
-  trash1Img = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/Trash 1.jfif");
-  trash2Img = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/Trash 2.png");
+  stoneImg = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/stone.png");
+  trash1Img = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/Trash 1.jfif");
+  trash2Img = loadImage("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/Trash 2.png");
 
-  runningManImg = loadAnimation("https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/Running Man Frame 1.png", "https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/Running Man Frame 2.png", "https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/Running Man Frame 3.png", "https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/Running Man Frame 4.png");
-  collidedManImg = loadAnimation("https://johaansolo.github.io/Oli-Vs.-Pollution-2/assets/Running Man Frame 2.png");
+  runningManImg = loadAnimation("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/Running Man Frame 1.png", "https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/Running Man Frame 2.png", "https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/Running Man Frame 3.png", "https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/Running Man Frame 4.png");
+  collidedManImg = loadAnimation("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/Running Man Frame 2.png");
 
-  collidedSound = loadSound("./assets/collided.wav");
-  jumpSound = loadSound("./assets/jump.wav");
-  //trashSound = loadSound("./assets/picked_Trash.mp3");
-  pantingSound = loadSound("./assets/panting.mp3");
+  collidedSound = loadSound("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/collided.wav");
+  jumpSound = loadSound("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/jump.wav");
+  //trashSound = loadSound("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/picked_Trash.mp3");
+  pantingSound = loadSound("https://johaansolo.github.io/Oli-Vs.-Pollution-3/assets/panting.mp3");
 
 }
 
